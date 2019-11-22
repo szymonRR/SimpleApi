@@ -1,0 +1,11 @@
+D:\webapi\SimpleApi\SimpleApi.Infrastructure\bin\Debug\netstandard2.0\SimpleApi.Infrastructure.deps.json
+D:\webapi\SimpleApi\SimpleApi.Infrastructure\bin\Debug\netstandard2.0\SimpleApi.Infrastructure.dll
+D:\webapi\SimpleApi\SimpleApi.Infrastructure\bin\Debug\netstandard2.0\SimpleApi.Infrastructure.pdb
+D:\webapi\SimpleApi\SimpleApi.Infrastructure\bin\Debug\netstandard2.0\SimpleApi.Core.dll
+D:\webapi\SimpleApi\SimpleApi.Infrastructure\bin\Debug\netstandard2.0\SimpleApi.Core.pdb
+D:\webapi\SimpleApi\SimpleApi.Infrastructure\obj\Debug\netstandard2.0\SimpleApi.Infrastructure.csprojAssemblyReference.cache
+D:\webapi\SimpleApi\SimpleApi.Infrastructure\obj\Debug\netstandard2.0\SimpleApi.Infrastructure.AssemblyInfoInputs.cache
+D:\webapi\SimpleApi\SimpleApi.Infrastructure\obj\Debug\netstandard2.0\SimpleApi.Infrastructure.AssemblyInfo.cs
+D:\webapi\SimpleApi\SimpleApi.Infrastructure\obj\Debug\netstandard2.0\SimpleApi.Infrastructure.csproj.CopyComplete
+D:\webapi\SimpleApi\SimpleApi.Infrastructure\obj\Debug\netstandard2.0\SimpleApi.Infrastructure.dll
+D:\webapi\SimpleApi\SimpleApi.Infrastructure\obj\Debug\netstandard2.0\SimpleApi.Infrastructure.pdb

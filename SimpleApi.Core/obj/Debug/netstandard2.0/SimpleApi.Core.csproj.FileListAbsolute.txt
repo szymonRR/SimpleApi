@@ -1,0 +1,8 @@
+D:\webapi\SimpleApi\SimpleApi.Core\bin\Debug\netstandard2.0\SimpleApi.Core.deps.json
+D:\webapi\SimpleApi\SimpleApi.Core\bin\Debug\netstandard2.0\SimpleApi.Core.dll
+D:\webapi\SimpleApi\SimpleApi.Core\bin\Debug\netstandard2.0\SimpleApi.Core.pdb
+D:\webapi\SimpleApi\SimpleApi.Core\obj\Debug\netstandard2.0\SimpleApi.Core.csprojAssemblyReference.cache
+D:\webapi\SimpleApi\SimpleApi.Core\obj\Debug\netstandard2.0\SimpleApi.Core.AssemblyInfoInputs.cache
+D:\webapi\SimpleApi\SimpleApi.Core\obj\Debug\netstandard2.0\SimpleApi.Core.AssemblyInfo.cs
+D:\webapi\SimpleApi\SimpleApi.Core\obj\Debug\netstandard2.0\SimpleApi.Core.dll
+D:\webapi\SimpleApi\SimpleApi.Core\obj\Debug\netstandard2.0\SimpleApi.Core.pdb

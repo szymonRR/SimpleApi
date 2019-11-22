@@ -17,7 +17,7 @@ namespace SimpleApi.Core.Domain
             ProductId = productId;
             SetName(name);
             Description = description;
-            Price = price;
+            SetPrice(price);
         }
 
         public void SetName(string name)

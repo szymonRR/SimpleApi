@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace SimpleApi.Core.Repositories
 {
-    public class IOrderRepository
+    public interface IOrderRepository
     {
         Task<Order> GetAsync(Guid id);
-        Task<Order> GetAsync(Guid userId);
-        Task<Order> BrowseAsync(Guid userId);
+        
+        Task<IEnumerable <Order>> BrowseAsync(Guid userId);
         Task AddAsync(Order order);
         Task UpdateAsync(Order order);
         Task DeleteAsync(Order order);

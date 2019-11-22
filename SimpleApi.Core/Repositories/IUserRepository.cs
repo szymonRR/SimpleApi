@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimpleApi.Core.Repositories
 {
-    public class IUserRepository
+    public interface IUserRepository
     {
         Task<User> GetAsync(Guid id);
         Task<User> GetAsync(string email);
