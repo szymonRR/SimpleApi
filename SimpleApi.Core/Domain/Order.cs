@@ -7,38 +7,28 @@ namespace SimpleApi.Core.Domain
 {
     public class Order : Entity
     {
-        ISet<Product> _products = new HashSet<Product>();
+        
         public Guid OrderId { get; protected set; }
         public Guid? UserId { get; protected set; }
         public DateTime CreatedAt { get; protected set; }
         public DateTime UpdatedAt { get; protected set; }
-        public IEnumerable<Product> Products => _products;
+        public IEnumerable<Product> Products { get; protected set; }
         public decimal TotalPrice { get; protected set; }
 
         protected Order()
         {
 
         }
-        public Order(Guid orderId,Guid userId)
+        public Order(Guid orderId,Guid userId, IEnumerable<Product> products)
         {
             OrderId = orderId;
             UserId = userId;
+            Products = products;
             CreatedAt = DateTime.UtcNow;
             UpdatedAt = DateTime.UtcNow;
             Total();
         }
-        public void AddProduct(Product product)
-        {
-            _products.Add(product);
-            Total();
-            UpdatedAt = DateTime.UtcNow;
-        }
-        public void DeleteProduct(Product product)
-        {
-            _products.Remove(product);
-            Total();
-            UpdatedAt = DateTime.UtcNow;
-        }
+       
         public void Total()
         {
             decimal totalPrice=0;

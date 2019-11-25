@@ -13,7 +13,7 @@ namespace SimpleApi.Infrastructure.Repositories
         private readonly ISet<Order> _orders = new HashSet<Order> {
 
 
-            new Order(Guid.NewGuid(),Guid.NewGuid())
+            new Order(Guid.NewGuid(),Guid.NewGuid(), new List<Product>{ new Product(Guid.NewGuid(),"Pralka","duza",1234) })
         
         };
         public async Task AddAsync(Order order)

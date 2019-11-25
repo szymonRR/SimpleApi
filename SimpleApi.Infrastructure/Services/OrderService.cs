@@ -28,9 +28,9 @@ namespace SimpleApi.Infrastructure.Services
             }) ;
         }
 
-        public async Task CreateAsync(Guid OrderId, Guid UserId)
+        public async Task CreateAsync(Guid OrderId, Guid UserId, IEnumerable<Product> products)
         {
-           var order = new Order(OrderId, UserId);
+           var order = new Order(OrderId, UserId, products);
             await _orderRepository.AddAsync(order);
         }
 

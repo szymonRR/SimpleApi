@@ -11,7 +11,7 @@ namespace SimpleApi.Infrastructure.Services
     {
         Task<OrderDto> GetAsync(Guid Id);
         Task<IEnumerable<OrderDto>> BrowseAsync(Guid UserId);
-        Task CreateAsync(Guid OrderId, Guid UserId);
+        Task CreateAsync(Guid OrderId, Guid UserId, IEnumerable<Product> products);
         Task UpdateAsync(Guid OrderId);
         Task DeleteAsync(Guid OrderId);
 
