@@ -19,3 +19,22 @@ D:\webapi\SimpleApi\SimpleApi.Api\bin\Debug\netcoreapp2.1\SimpleApi.Core.pdb
 D:\webapi\SimpleApi\SimpleApi.Api\obj\Debug\netcoreapp2.1\SimpleApi.Api.csproj.CopyComplete
 D:\webapi\SimpleApi\SimpleApi.Api\obj\Debug\netcoreapp2.1\SimpleApi.Api.dll
 D:\webapi\SimpleApi\SimpleApi.Api\obj\Debug\netcoreapp2.1\SimpleApi.Api.pdb
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Api\bin\Debug\netcoreapp2.1\SimpleApi.Api.deps.json
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Api\bin\Debug\netcoreapp2.1\SimpleApi.Api.runtimeconfig.json
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Api\bin\Debug\netcoreapp2.1\SimpleApi.Api.runtimeconfig.dev.json
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Api\bin\Debug\netcoreapp2.1\SimpleApi.Api.dll
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Api\bin\Debug\netcoreapp2.1\SimpleApi.Api.pdb
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Api\bin\Debug\netcoreapp2.1\SimpleApi.Core.dll
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Api\bin\Debug\netcoreapp2.1\SimpleApi.Infrastructure.dll
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Api\bin\Debug\netcoreapp2.1\SimpleApi.Infrastructure.pdb
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Api\bin\Debug\netcoreapp2.1\SimpleApi.Core.pdb
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Api\obj\Debug\netcoreapp2.1\SimpleApi.Api.csprojAssemblyReference.cache
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Api\obj\Debug\netcoreapp2.1\SimpleApi.Api.csproj.CoreCompileInputs.cache
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Api\obj\Debug\netcoreapp2.1\SimpleApi.Api.RazorAssemblyInfo.cache
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Api\obj\Debug\netcoreapp2.1\SimpleApi.Api.RazorAssemblyInfo.cs
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Api\obj\Debug\netcoreapp2.1\SimpleApi.Api.AssemblyInfoInputs.cache
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Api\obj\Debug\netcoreapp2.1\SimpleApi.Api.AssemblyInfo.cs
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Api\obj\Debug\netcoreapp2.1\SimpleApi.Api.RazorTargetAssemblyInfo.cache
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Api\obj\Debug\netcoreapp2.1\SimpleApi.Api.csproj.CopyComplete
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Api\obj\Debug\netcoreapp2.1\SimpleApi.Api.dll
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Api\obj\Debug\netcoreapp2.1\SimpleApi.Api.pdb

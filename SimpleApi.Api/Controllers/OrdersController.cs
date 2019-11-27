@@ -19,10 +19,7 @@ namespace SimpleApi.Api.Controllers
 
         [HttpGet]
         public async Task<IActionResult> Get(Guid userId)
-        {
-            var orders = await _orderService.BrowseAsync(userId);
-            return Json(orders);
-        }
+        => Json(await _orderService.GetAsync(UserId));
 
         [HttpGet("{orderId}")]
         public async Task<IActionResult> OrderGet(Guid orderId)

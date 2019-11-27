@@ -6,3 +6,12 @@ D:\webapi\SimpleApi\SimpleApi.Core\obj\Debug\netstandard2.0\SimpleApi.Core.Assem
 D:\webapi\SimpleApi\SimpleApi.Core\obj\Debug\netstandard2.0\SimpleApi.Core.AssemblyInfo.cs
 D:\webapi\SimpleApi\SimpleApi.Core\obj\Debug\netstandard2.0\SimpleApi.Core.dll
 D:\webapi\SimpleApi\SimpleApi.Core\obj\Debug\netstandard2.0\SimpleApi.Core.pdb
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Core\bin\Debug\netstandard2.0\SimpleApi.Core.deps.json
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Core\bin\Debug\netstandard2.0\SimpleApi.Core.dll
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Core\bin\Debug\netstandard2.0\SimpleApi.Core.pdb
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Core\obj\Debug\netstandard2.0\SimpleApi.Core.csprojAssemblyReference.cache
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Core\obj\Debug\netstandard2.0\SimpleApi.Core.csproj.CoreCompileInputs.cache
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Core\obj\Debug\netstandard2.0\SimpleApi.Core.AssemblyInfoInputs.cache
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Core\obj\Debug\netstandard2.0\SimpleApi.Core.AssemblyInfo.cs
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Core\obj\Debug\netstandard2.0\SimpleApi.Core.dll
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Core\obj\Debug\netstandard2.0\SimpleApi.Core.pdb

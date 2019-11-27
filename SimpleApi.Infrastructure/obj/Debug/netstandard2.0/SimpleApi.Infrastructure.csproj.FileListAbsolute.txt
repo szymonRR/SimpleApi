@@ -9,3 +9,15 @@ D:\webapi\SimpleApi\SimpleApi.Infrastructure\obj\Debug\netstandard2.0\SimpleApi.
 D:\webapi\SimpleApi\SimpleApi.Infrastructure\obj\Debug\netstandard2.0\SimpleApi.Infrastructure.csproj.CopyComplete
 D:\webapi\SimpleApi\SimpleApi.Infrastructure\obj\Debug\netstandard2.0\SimpleApi.Infrastructure.dll
 D:\webapi\SimpleApi\SimpleApi.Infrastructure\obj\Debug\netstandard2.0\SimpleApi.Infrastructure.pdb
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Infrastructure\bin\Debug\netstandard2.0\SimpleApi.Infrastructure.deps.json
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Infrastructure\bin\Debug\netstandard2.0\SimpleApi.Infrastructure.dll
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Infrastructure\bin\Debug\netstandard2.0\SimpleApi.Infrastructure.pdb
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Infrastructure\bin\Debug\netstandard2.0\SimpleApi.Core.dll
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Infrastructure\bin\Debug\netstandard2.0\SimpleApi.Core.pdb
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Infrastructure\obj\Debug\netstandard2.0\SimpleApi.Infrastructure.csprojAssemblyReference.cache
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Infrastructure\obj\Debug\netstandard2.0\SimpleApi.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Infrastructure\obj\Debug\netstandard2.0\SimpleApi.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Infrastructure\obj\Debug\netstandard2.0\SimpleApi.Infrastructure.AssemblyInfo.cs
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Infrastructure\obj\Debug\netstandard2.0\SimpleApi.Infrastructure.csproj.CopyComplete
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Infrastructure\obj\Debug\netstandard2.0\SimpleApi.Infrastructure.dll
+C:\Users\szymon2\Desktop\web api\SimpleApi\SimpleApi.Infrastructure\obj\Debug\netstandard2.0\SimpleApi.Infrastructure.pdb
