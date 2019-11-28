@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using AutoMapper;
 using SimpleApi.Core.Domain;
 using SimpleApi.Core.Repositories;
 using SimpleApi.Infrastructure.Dto;
@@ -12,8 +13,9 @@ namespace SimpleApi.Infrastructure.Services
     {
         private readonly IUserRepository _userRepository;
         private readonly IJwtHandler _jwtHandler;
+        private readonly IMapper _mapper;
 
-        public UserService(IUserRepository userRepository, IJwtHandler jwtHandler)
+        public UserService(IUserRepository userRepository, IJwtHandler jwtHandler, IMapper mapper)
         {
             _userRepository = userRepository;
             _jwtHandler = jwtHandler;
@@ -22,13 +24,7 @@ namespace SimpleApi.Infrastructure.Services
         public async Task<AccountDto> GetAccountAsync(Guid userId)
         {
            var user = await _userRepository.GetAsync(userId);
-            return new AccountDto
-            {
-                Id = user.Id,
-                Email = user.Email,
-                Name = user.Name,
-                Role = user.Role
-            };
+            return _mapper.Map<AccountDto>(user);
         }
 
         public async Task<TokenDto> LoginAsync(string email, string password)

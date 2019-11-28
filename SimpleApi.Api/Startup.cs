@@ -14,6 +14,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using SimpleApi.Core.Repositories;
+using SimpleApi.Infrastructure.Mappers;
 using SimpleApi.Infrastructure.Repositories;
 using SimpleApi.Infrastructure.Services;
 using SimpleApi.Infrastructure.Settings;
@@ -36,7 +37,11 @@ namespace SimpleApi.Api
             services.AddScoped<IOrderRepository, OrderRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserService, UserService>();
-           services.Configure<JwtSettings>(Configuration.GetSection("jwt"));
+            services.AddScoped<IOrderService, OrderService>();
+            services.AddSingleton<IJwtHandler, JwtHandler>();
+            services.AddSingleton(AutoMapperConfig.Initialize());
+
+            services.Configure<JwtSettings>(Configuration.GetSection("jwt"));
 
             
 
@@ -45,7 +50,7 @@ namespace SimpleApi.Api
                 {
                     Options.TokenValidationParameters = new TokenValidationParameters
                     {
-                        ValidIssuer = "https://localhost:44302",
+                        ValidIssuer = "https://localhost:44327",
                         ValidateAudience = false,
                         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("super_secret_123!"))
                     };

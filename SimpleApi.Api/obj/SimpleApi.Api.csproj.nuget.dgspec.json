@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\szymon2\\Desktop\\web api\\SimpleApi\\SimpleApi.Api\\SimpleApi.Api.csproj": {}
+    "D:\\webapi\\SimpleApi\\SimpleApi.Api\\SimpleApi.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\szymon2\\Desktop\\web api\\SimpleApi\\SimpleApi.Api\\SimpleApi.Api.csproj": {
+    "D:\\webapi\\SimpleApi\\SimpleApi.Api\\SimpleApi.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\szymon2\\Desktop\\web api\\SimpleApi\\SimpleApi.Api\\SimpleApi.Api.csproj",
+        "projectUniqueName": "D:\\webapi\\SimpleApi\\SimpleApi.Api\\SimpleApi.Api.csproj",
         "projectName": "SimpleApi.Api",
-        "projectPath": "C:\\Users\\szymon2\\Desktop\\web api\\SimpleApi\\SimpleApi.Api\\SimpleApi.Api.csproj",
-        "packagesPath": "C:\\Users\\szymon2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\szymon2\\Desktop\\web api\\SimpleApi\\SimpleApi.Api\\obj\\",
+        "projectPath": "D:\\webapi\\SimpleApi\\SimpleApi.Api\\SimpleApi.Api.csproj",
+        "packagesPath": "C:\\Users\\Szymon\\.nuget\\packages\\",
+        "outputPath": "D:\\webapi\\SimpleApi\\SimpleApi.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\szymon2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Szymon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\szymon2\\Desktop\\web api\\SimpleApi\\SimpleApi.Infrastructure\\SimpleApi.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\szymon2\\Desktop\\web api\\SimpleApi\\SimpleApi.Infrastructure\\SimpleApi.Infrastructure.csproj"
+              "D:\\webapi\\SimpleApi\\SimpleApi.Infrastructure\\SimpleApi.Infrastructure.csproj": {
+                "projectPath": "D:\\webapi\\SimpleApi\\SimpleApi.Infrastructure\\SimpleApi.Infrastructure.csproj"
               }
             }
           }
@@ -45,6 +45,10 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -61,6 +65,7 @@
               "version": "[2.1.2, )"
             },
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
@@ -71,27 +76,33 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\szymon2\\Desktop\\web api\\SimpleApi\\SimpleApi.Core\\SimpleApi.Core.csproj": {
+    "D:\\webapi\\SimpleApi\\SimpleApi.Core\\SimpleApi.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\szymon2\\Desktop\\web api\\SimpleApi\\SimpleApi.Core\\SimpleApi.Core.csproj",
+        "projectUniqueName": "D:\\webapi\\SimpleApi\\SimpleApi.Core\\SimpleApi.Core.csproj",
         "projectName": "SimpleApi.Core",
-        "projectPath": "C:\\Users\\szymon2\\Desktop\\web api\\SimpleApi\\SimpleApi.Core\\SimpleApi.Core.csproj",
-        "packagesPath": "C:\\Users\\szymon2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\szymon2\\Desktop\\web api\\SimpleApi\\SimpleApi.Core\\obj\\",
+        "projectPath": "D:\\webapi\\SimpleApi\\SimpleApi.Core\\SimpleApi.Core.csproj",
+        "packagesPath": "C:\\Users\\Szymon\\.nuget\\packages\\",
+        "outputPath": "D:\\webapi\\SimpleApi\\SimpleApi.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\szymon2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Szymon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -115,6 +126,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[2.1.2, )"
@@ -127,27 +142,33 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\szymon2\\Desktop\\web api\\SimpleApi\\SimpleApi.Infrastructure\\SimpleApi.Infrastructure.csproj": {
+    "D:\\webapi\\SimpleApi\\SimpleApi.Infrastructure\\SimpleApi.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\szymon2\\Desktop\\web api\\SimpleApi\\SimpleApi.Infrastructure\\SimpleApi.Infrastructure.csproj",
+        "projectUniqueName": "D:\\webapi\\SimpleApi\\SimpleApi.Infrastructure\\SimpleApi.Infrastructure.csproj",
         "projectName": "SimpleApi.Infrastructure",
-        "projectPath": "C:\\Users\\szymon2\\Desktop\\web api\\SimpleApi\\SimpleApi.Infrastructure\\SimpleApi.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\szymon2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\szymon2\\Desktop\\web api\\SimpleApi\\SimpleApi.Infrastructure\\obj\\",
+        "projectPath": "D:\\webapi\\SimpleApi\\SimpleApi.Infrastructure\\SimpleApi.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Szymon\\.nuget\\packages\\",
+        "outputPath": "D:\\webapi\\SimpleApi\\SimpleApi.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\szymon2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Szymon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -160,8 +181,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\szymon2\\Desktop\\web api\\SimpleApi\\SimpleApi.Core\\SimpleApi.Core.csproj": {
-                "projectPath": "C:\\Users\\szymon2\\Desktop\\web api\\SimpleApi\\SimpleApi.Core\\SimpleApi.Core.csproj"
+              "D:\\webapi\\SimpleApi\\SimpleApi.Core\\SimpleApi.Core.csproj": {
+                "projectPath": "D:\\webapi\\SimpleApi\\SimpleApi.Core\\SimpleApi.Core.csproj"
               }
             }
           }
@@ -175,6 +196,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[2.1.2, )"
@@ -187,10 +212,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
