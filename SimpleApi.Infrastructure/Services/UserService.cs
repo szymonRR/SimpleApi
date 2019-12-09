@@ -19,6 +19,7 @@ namespace SimpleApi.Infrastructure.Services
         {
             _userRepository = userRepository;
             _jwtHandler = jwtHandler;
+            _mapper = mapper;
         }
 
         public async Task<AccountDto> GetAccountAsync(Guid userId)

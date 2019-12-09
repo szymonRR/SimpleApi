@@ -9,6 +9,7 @@ using SimpleApi.Infrastructure.Services;
 
 namespace SimpleApi.Api.Controllers
 {
+    [Route("[controller]")]
     public class AccountController : ApiControllerBase
     {
 
@@ -21,12 +22,12 @@ namespace SimpleApi.Api.Controllers
             _orderService = orderService;
         }
 
-        [HttpGet]
+        [HttpGet("{UserId}")]
         [Authorize]
-        public async Task<IActionResult> Get()
+        public async Task<IActionResult> Get(Guid UserId)
         => Json(await _userService.GetAccountAsync(UserId));
 
-        [HttpGet("orders")]
+       [HttpGet("orders")]
         [Authorize]
         public async Task<IActionResult> GetOrders()
         => Json(await _orderService.GetAsync(UserId));

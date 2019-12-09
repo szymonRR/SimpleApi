@@ -18,7 +18,7 @@ namespace SimpleApi.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get(Guid userId)
+        public async Task<IActionResult> Get(Guid UserId)
         => Json(await _orderService.GetAsync(UserId));
 
         [HttpGet("{orderId}")]
