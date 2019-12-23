@@ -22,9 +22,9 @@ namespace SimpleApi.Api.Controllers
             _orderService = orderService;
         }
 
-        [HttpGet("{UserId}")]
+        [HttpGet]
         [Authorize]
-        public async Task<IActionResult> Get(Guid UserId)
+        public async Task<IActionResult> Get()
         => Json(await _userService.GetAccountAsync(UserId));
 
        [HttpGet("orders")]

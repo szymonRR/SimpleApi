@@ -12,7 +12,7 @@ namespace SimpleApi.Infrastructure.Repositories
     public class UserRepository : IUserRepository
     {
 
-        private static readonly ISet<User> _users = new HashSet<User>();
+       //private static readonly ISet<User> _users = new HashSet<User>();
         private readonly AppDbContext _dbContext;
 
         public UserRepository(AppDbContext dbContext)
@@ -22,7 +22,7 @@ namespace SimpleApi.Infrastructure.Repositories
         public async Task AddAsync(User user)
         {
             
-            _dbContext.Add(user);
+            _dbContext.UsersItems.Add(user);
             _dbContext.SaveChanges();
             await Task.CompletedTask;
 
@@ -30,7 +30,7 @@ namespace SimpleApi.Infrastructure.Repositories
 
         public async Task DeleteAsync(User user)
         {
-            _dbContext.Remove(user);
+            _dbContext.UsersItems.Remove(user);
             _dbContext.SaveChanges();
             await Task.CompletedTask;
         }

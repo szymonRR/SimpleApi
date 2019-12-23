@@ -10,15 +10,16 @@ namespace SimpleApi.Infrastructure.Repositories
 {
     public class OrderRepository : IOrderRepository
     {
-        private readonly ISet<Order> _orders = new HashSet<Order> {
-
-
-            new Order(Guid.NewGuid(),Guid.NewGuid(), new List<Product>{ new Product(Guid.NewGuid(),"Pralka","duza",1234) })
         
-        };
+        private readonly AppDbContext _dbContext;
+        public OrderRepository(AppDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
         public async Task AddAsync(Order order)
         {
-            _orders.Add(order);
+            _dbContext.OrderItems.Add(order);
+            _dbContext.SaveChanges();
             await Task.CompletedTask;
         }
 
@@ -26,12 +27,13 @@ namespace SimpleApi.Infrastructure.Repositories
 
         public async Task DeleteAsync(Order order)
         {
-            _orders.Remove(order);
+            _dbContext.OrderItems.Remove(order);
+            _dbContext.SaveChanges();
             await Task.CompletedTask;
         }
 
         public async Task<Order> GetAsync(Guid id)
-        => await Task.FromResult(_orders.SingleOrDefault(x => x.Id == id));
+        => await Task.FromResult(_dbContext.OrderItems.Where(x => x.OrderId == id).SingleOrDefault());
 
         public async Task UpdateAsync(Order order)
         {
@@ -40,10 +42,10 @@ namespace SimpleApi.Infrastructure.Repositories
 
        public async Task<IEnumerable<Order>> BrowseAsync(Guid userId)
         {
-            var orders = _orders.AsEnumerable();
-            
-            
-                orders = orders.Where(x => x.UserId == userId);
+
+
+
+           var orders = _dbContext.OrderItems.Where(x => x.UserId == userId).ToList();
             
 
             return await Task.FromResult(orders);

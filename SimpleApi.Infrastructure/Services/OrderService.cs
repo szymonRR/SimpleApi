@@ -26,9 +26,9 @@ namespace SimpleApi.Infrastructure.Services
             return _mapper.Map<IEnumerable<OrderDto>>(orders);
         }
 
-        public async Task CreateAsync(Guid OrderId, Guid UserId, IEnumerable<Product> products)
+        public async Task CreateAsync(Guid OrderId, Guid UserId, IEnumerable<OrderDetails> Products)
         {
-           var order = new Order(OrderId, UserId, products);
+           var order = new Order(OrderId, UserId, Products);
             await _orderRepository.AddAsync(order);
         }
 

@@ -9,6 +9,6 @@ namespace SimpleApi.Infrastructure.Commands.Order
     {
         public Guid OrderId { get; set; }
         public Guid UserId { get; set; }
-        public IEnumerable<Product> Products { get;  set; }
+        public IEnumerable<OrderDetails> Products { get;  set; }
     }
 }

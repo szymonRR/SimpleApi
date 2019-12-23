@@ -12,14 +12,14 @@ namespace SimpleApi.Core.Domain
         public Guid? UserId { get; protected set; }
         public DateTime CreatedAt { get; protected set; }
         public DateTime UpdatedAt { get; protected set; }
-        public IEnumerable<Product> Products { get; protected set; }
+        public IEnumerable<OrderDetails> Products { get; protected set; }
         public decimal TotalPrice { get; protected set; }
 
         protected Order()
         {
 
         }
-        public Order(Guid orderId,Guid userId, IEnumerable<Product> products)
+        public Order(Guid orderId,Guid userId, IEnumerable<OrderDetails> products)
         {
             OrderId = orderId;
             UserId = userId;
@@ -27,14 +27,15 @@ namespace SimpleApi.Core.Domain
             CreatedAt = DateTime.UtcNow;
             UpdatedAt = DateTime.UtcNow;
             Total();
+            
         }
        
         public void Total()
         {
             decimal totalPrice=0;
-            foreach(Product p in Products)
+            foreach(OrderDetails p in Products)
             {
-                totalPrice += totalPrice;
+                totalPrice += p.Price*p.Amount;
             }
             TotalPrice = totalPrice;
         }
